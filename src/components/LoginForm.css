@@ -1,0 +1,139 @@
+h2 {
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+  }
+  
+  .boxouter {
+    margin-inline: 90px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin-top: 100px;
+  }
+  
+  .boxinner {
+    width: 400px;
+    height: 603px;
+  }
+  
+  label {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #25282B;
+  }
+  
+  input {
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #E8ECF4;
+    background-color: white;
+  }
+  
+  textarea {
+    resize: none;
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid #E8ECF4;
+  }
+  
+  .boxinner-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .form-button {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: end;
+  }
+  
+  .message-box {
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+  }
+  
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button1 {
+    width: 89px;
+    height: 43px;
+    padding: 8px 24px 8px 24px;
+    border-radius: 8px;
+    background: #FDC435;
+    border: none;
+    font-weight:700 ;
+  }
+  .button1:hover{
+    background-color: #ffbd17;
+    color: white;
+  }
+  
+  /* .icons {
+    display: flex;
+    flex-direction: column;
+    /* gap: 32px; */
+    /* width: 192px;
+    height: 102px;
+  }  */
+  
+  .footer {
+    width: 1440px;
+    height: 344px;
+    top: 660px;
+    background-color: #FDC435;
+  
+  }
+  
+  button:hover {
+    background-color: #FDC435;
+  }
+  
+  .reserve-section {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .footerIcon{
+    width: 48px;
+    height: 48px;
+  }
+  .Icon-section{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  .bottom-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px 0px;
+  }
+  .footer-section > img {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+  }

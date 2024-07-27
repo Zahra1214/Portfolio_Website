@@ -1,0 +1,26 @@
+.footer-container {
+  display: flex;
+  gap: 100px;
+  margin-inline: 150px;
+}
+.img-class {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.footer-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+.about-resume {
+  padding: 15px 20px;
+  background-color: orange;
+  text-decoration: none;
+  color: black;
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+}
